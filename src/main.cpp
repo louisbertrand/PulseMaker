@@ -19,7 +19,7 @@
 constexpr uint32_t HIGH_RATE = 1200;
 constexpr uint32_t LOW_RATE = 30;
 constexpr uint32_t PULSE_DURATION = 1000;  // Microseconds
-RBD::Timer repetion_timer{1000 * 60 / HIGH_RATE};  // initially fast rate
+RBD::Timer repetion_timer{1000 * 60 / LOW_RATE};  // initially slow rate
 constexpr uint32_t BLINK_TIME = 100; // Milliseconds to flash onboard LED
 RBD::Timer blink_timer{BLINK_TIME};
 
