@@ -10,7 +10,8 @@
 	],
 	"settings": {
 		"files.associations": {
-			"vector": "cpp"
+			"vector": "cpp",
+			"sfmt-common.h": "c"
 		}
 	}
 }
